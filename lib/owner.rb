@@ -57,7 +57,11 @@ class Owner
     end 
   end 
   def sell_pets
-    @pets
+    @pets.each do |animals, animal|
+      animal.each do |a,b|
+        binding.pry
+      end 
+    end 
   end 
   def list_pets 
     return "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
