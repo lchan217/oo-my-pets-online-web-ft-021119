@@ -67,10 +67,13 @@ class Owner
   
   
   def feed_fish
+    @roster.each do |animal, mood|
+      binding.pry
+    end 
   end 
   def sell_pets
  
-end 
+  end 
   def list_pets 
     return "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
   end 
