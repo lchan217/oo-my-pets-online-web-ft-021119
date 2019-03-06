@@ -68,7 +68,7 @@ class Owner
   
   def feed_fish
     @pets[:fishes].each do |attribute|
-      binding.pry
+      attribute.mood = "happy"
     end 
   end 
   def sell_pets
