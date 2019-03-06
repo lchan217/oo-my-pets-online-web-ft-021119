@@ -67,7 +67,7 @@ class Owner
   
   
   def feed_fish
-    @roster.each do |animal, mood|
+    @pets.each do |animal, mood|
       binding.pry
     end 
   end 
