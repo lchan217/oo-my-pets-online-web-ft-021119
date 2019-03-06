@@ -37,7 +37,7 @@ class Owner
     @pets[:cats] <<  new_cat  
   end 
   def buy_dog(name)
-    
+    new  = D og.new(name)
   end 
   
   def walk_dogs 
